@@ -1,7 +1,7 @@
 import { ReactElement } from "react";
 
 type KeyReserved = {
-  assert: "const" | "constructor" | "this" | "type" | "class";
+  assert: "const" | "constructor" | "this" | "type" | "class" | "private";
   charSeparate?: ".";
 };
 

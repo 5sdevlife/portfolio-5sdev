@@ -1,11 +1,11 @@
 import { ReactElement } from "react";
-import GridNumberLines from "../components/editor/GridNumberLines";
-import EditorProgramming from "../components/editor/EditorProgramming";
+import GridNumberLines from "../components/ide/GridNumberLines";
+import EditorProgramming from "../components/ide/EditorProgramming";
 
 const EditorBody = (): ReactElement<HTMLDivElement> => {
   return (
     <div className="editor-body">
-      <GridNumberLines countLines={20} />
+      <GridNumberLines countLines={60} />
       <EditorProgramming />
     </div>
   );

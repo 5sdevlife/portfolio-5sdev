@@ -4,7 +4,7 @@ type Behavior = "value" | "defined";
 
 type ArgumentName = {
   assert: string;
-  charSeparate?: ";" | ":";
+  charSeparate?: ";" | ":" | ",";
   isReadOnly?: boolean;
   behavior?: Behavior
 };

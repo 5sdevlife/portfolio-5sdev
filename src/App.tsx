@@ -64,14 +64,14 @@ function App() {
         <div className="overlay"></div>
         <div className="overlay-title">
           <h3>
-            <HelloIcon />, bienvenido a
+            <HelloIcon />, welcome to
           </h3>
           <h1>5s.dev </h1>
           <h2>Sebastián Salas</h2>
           <h4>
             <HeartIcon />
             <JsonIcon />
-            Software engineer life
+            I am a software engineer
           </h4>
           <Editor />
         </div>

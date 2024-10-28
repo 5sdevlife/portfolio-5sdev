@@ -1,8 +1,8 @@
 import { ReactElement } from "react";
 
 type KeyScope = {
-  assert: "(" | "{" | ")" | "}";
-  charSeparate?: "{" | ")";
+  assert: "(" | "{" | ")" | "}" | "()" | "[" | "]";
+  charSeparate?: "{" | ")" | ";" | ":" | "]";
 };
 
 const KeyScope = (props: KeyScope): ReactElement<HTMLSpanElement> => {
